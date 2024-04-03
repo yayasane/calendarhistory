@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240403192222"
+  },
+  "clientRootFolder": "calendarhistory",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "entityTableName": "day",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dafOfWeek",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "calendarhistory",
+  "name": "Day",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
